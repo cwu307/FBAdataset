@@ -9,9 +9,9 @@ function [dataInfo, annInfo, flag] = readFile(dataDir, annDir)
 flag = 0; 
 
 % read the information file 
-dataInfo = recursiveFileList(dataDir, 'wav');
+dataInfo = recursiveFileList(dataDir, 'mp3');
 annInfo = recursiveFileList(annDir, 'txt');
-if length(annInfo) == 0
+if ISEMPTY(annInfo)
     annInfo = recursiveFileList(annDir, 'mat');
     flag = 1; %notification of reading mat
 end

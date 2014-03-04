@@ -6,39 +6,11 @@
 % set the directory of data
 function [dataDir, annDir] = readPath
 
-
-% dataList = {
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_1/audio/dry_mix';
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_2/audio/dry_mix';
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_3/audio/dry_mix';
-% 
-%     };
-% 
-% annList = {
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_1/annotation';
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_2/annotation';
-% '/Users/mac/Desktop/Database/ENST-drums-public/drummer_3/annotation';
-%     };
-
-
-
-dataList = {
-'/Users/mac/Desktop/Database/ODB/audio';
+dataDir = {
+'/Users/mac/Desktop/Database2/FBA subset/Data';
     };
 
-annList = {
-'/Users/mac/Desktop/Database/ODB/ground truth';
+annDir = {
+'/Users/mac/Desktop/Database2/FBA subset/Annotations';
     };
-% 
-% 
-% dataList = {
-% '/Users/mac/Desktop/Database/Leveau/sounds';
-%     };
-% 
-% annList = {
-% '/Users/mac/Desktop/Database/Leveau/goodlabels';
-%     };
 
-
-dataDir = dataList;
-annDir = annList;
